@@ -1,0 +1,17 @@
+return{
+ 'Blues',
+ 'Country',
+ 'Electronic',
+ 'Folk',
+ 'Jazz',
+ 'Latin',
+ 'Metal',
+ 'Newage',
+ 'Pop',
+ 'Punk',
+ 'Rap',
+ 'Reggae',
+ 'RnB',
+ 'Rock',
+ 'World'
+}
