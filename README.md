@@ -1,6 +1,8 @@
 ResNet training in Torch
 ============================
 
+Visual experiments of the paper: [Multi-label Music Genre Classification from Audio, Text, and Images Using Deep Features](https://ismir2017.smcnus.org/wp-content/uploads/2017/10/126_Paper.pdf). [Repo](https://github.com/sergiooramas/tartarus#ismir-2017-experiments-multi-label-classification) of audio and textual experiments.
+
 This is a modified version of [Facebook resnet (torch)](https://github.com/facebook/fb.resnet.torch).
 
 Requirments and installation [installation instructions](INSTALL.md).
@@ -9,19 +11,19 @@ See the [training recipes](TRAINING.md) for complete examples.
 
 ## Finetuning on our dataset
 
-Download the [dataset](...). Note that you have to organize the files as follow:
--train/
-	-label1/
-	-...
-	-labeln/
--test/
-	-label1/
-	-...
-	-labeln/
--val/
-	-label1/
-	-...
-	-labeln/
+Download the [dataset](https://zenodo.org/record/831189#.WlzidXWnFB0). Note that you have to organize the files as follow:
+* train/
+  * label1/
+  * ...
+  * labeln/
+* test/
+  * label1/
+  * ...
+  * labeln/
+* val/
+  * label1/
+  * ...
+  * labeln/
 
 Download the [Imagnet pretrained model](https://d2j0dndfm35trm.cloudfront.net/resnet-101.t7) (resnet-101).
 
