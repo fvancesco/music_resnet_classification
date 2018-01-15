@@ -38,7 +38,7 @@ th main.lua -save checkpoints/ -LR 0.0001 -batchSize 50 -retrain misc/resnet-101
 ```
 
 ## Extract visual features
-Download our resnet [model](...) (model_best.t7).
+Download our resnet [model](https://drive.google.com/open?id=1LWXVVBYSraFYsqepbsl_OkeZ8pSLMPaC) (model_best.t7).
 
 ```bash
 th extract-features.lua misc/model_best.t7 30 <IMAGES_LIST>
